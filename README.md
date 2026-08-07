@@ -1,2 +1,2 @@
 # CC3301
-PSS
+Programacion de Software de Sistemas
