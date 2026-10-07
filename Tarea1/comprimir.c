@@ -10,7 +10,7 @@ uint comprimir(uint a[], int nbits) {
   int i = 0;
   int espacio = sizeof(uint) << 3;
   while (espacio >= nbits) {
-    uint movimiento = (1 << (nbits - 1) << 1) - 1;
+    uint movimiento = (1U << (nbits - 1) << 1) - 1;
     uint trozo = a[i] & (movimiento);
     r <<= nbits;
     r |= trozo;
